@@ -1,10 +1,67 @@
-/* Universal */
+/*--------Universal----------*/
+div {
+  border: 1px solid white;
+}
 
 * {
-  font-family: Helvetic, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
   text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5{
+  font-size: 18px;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*------------Header--------------*/
+div {
+  border-bottom: 2px solid white;
+}
+
+/*-------------Our Mission----------*/
+
+/*---------Featured Tea of the Month---------*/
+.featured-image {
+  height: 200px;
+  width: 300px;
+}
+
+
+/*-------------Locations-------*/
+
+.locations {
+  background-image: url("../resources/images/img-locations-background.jpg");
+
+}
+/*---------------Contact---------------*/
+
+div.contact {
+  height: 200px;
+}
+
+/*--------------Footer--------------*/
+
+#footer {
+  text-align: left;
+  padding-left: 20px;
 }
